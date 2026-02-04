@@ -12,6 +12,7 @@ body {
 
 /* navigation menu */
 nav {
+    border: 4px rgb(25, 129, 138) outset;
     background: rgb(32, 165, 177);
     margin: 0 auto;
     display: flex;
@@ -47,6 +48,7 @@ a {
 /* main container area beneath menu */
 main {
     background: rgb(32, 165, 177);
+    border: 4px rgb(40, 201, 215) inset;
     display: flex;
     margin-top: 20px;
 }
@@ -87,17 +89,17 @@ h2, h3 {
 }
 
 #portfolio li {
-  background: #fff;
+  background: rgb(40, 201, 215);
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-  background: #eee;
+  background: rgb(78, 211, 223);
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #454545;
+  color: rgb(18, 92, 99);
 }
