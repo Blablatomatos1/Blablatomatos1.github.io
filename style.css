@@ -42,7 +42,8 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(117, 220, 230);
+    padding: 8px;
 }
 
 /* main container area beneath menu */
@@ -69,13 +70,56 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(156, 231, 237) ridge;
     padding: 8px;
     margin-top: 20px;
 }
 
 h2, h3 {
     margin: 0px;
+}
+
+/* albums section */
+#albums {
+    padding: 10px;
+    display: flex;
+}
+
+#heading_album {
+    padding: 15px;
+    margin-top: 5px;
+}
+
+#album_images{
+    margin-right: 25px;
+    padding: 10px;
+    display: flex;
+}
+
+.letu_stuke {
+    padding: 2px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.cate_le_bon {
+    padding: 2px;
+    display: flex;
+}
+
+.madlib {
+    padding: 2px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.moonlandingz {
+    padding: 2px;
+    display: flex;
+}
+#album_links{
+    display: flex;
+    margin-top: 30px;
 }
 
 /* Portfolio styles */
