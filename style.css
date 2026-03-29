@@ -79,49 +79,45 @@ h2, h3 {
     margin: 0px;
 }
 
-/* albums section */
+/*albums*/
+
 #albums {
     padding: 10px;
     display: flex;
 }
 
-#heading_album {
-    padding: 15px;
-    margin-top: 5px;
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
 }
 
-#album_images{
-    margin-right: 25px;
-    padding: 10px;
+#album_images {
     display: flex;
+    gap: 10px;
 }
 
-.letu_stuke {
-    padding: 2px;
-    margin-top: 30px;
-    display: flex;
+#album_images ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.cate_le_bon {
-    padding: 2px;
-    display: flex;
+#album_images img {
+    display: block;
+    margin-bottom: 10px;
 }
 
-.madlib {
-    padding: 2px;
-    margin-top: 30px;
+#album_links {
+    flex-grow: 1;
     display: flex;
-}
-
-.moonlandingz {
-    padding: 2px;
-    display: flex;
-}
-#album_links{
-    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
 
+#album_links ul {
+    list-style: none;
+}
 /* Portfolio styles */
 .content h1 {
   color: rgb(18, 92, 99);
@@ -147,3 +143,30 @@ h2, h3 {
   text-decoration: none;
   color: rgb(18, 92, 99);
 }
+
+
+.photo-stack {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin: 20px auto;
+}
+
+.photo-stack .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.photo-stack .photo:nth-child(1) { transform: rotate(-3deg); }
+.photo-stack .photo:nth-child(2) { transform: rotate(2deg); }
+.photo-stack .photo:nth-child(3) { transform: rotate(-1deg); }
+.photo-stack .photo:nth-child(4) { transform: rotate(4deg); }
+.photo-stack .photo:nth-child(5) { transform: rotate(-2deg); }
